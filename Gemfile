@@ -17,6 +17,7 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw]
 
 group :development, :test do
   gem 'debug', '>= 1.0.0', platforms: %i[mri mingw x64_mingw]
+  gem 'rspec-rails', '~> 5.0.0'
 end
 
 group :development do
