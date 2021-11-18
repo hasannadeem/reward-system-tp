@@ -1,0 +1,9 @@
+<%= form_with url: reward_path, method: :post do |form| %>
+  <div>
+    <%= form.label "File" %>
+    <%= form.file_field "file" %>
+  </div>
+  <div>
+    <%= form.submit "Generate Reward" %>
+  </div>
+<% end %>
